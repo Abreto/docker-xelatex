@@ -17,10 +17,11 @@ RUN apt-get update && \
   lmodern \
   make \
   texlive-fonts-recommended \
+  texlive-fonts-extra \
   texlive-generic-recommended \
   texlive-lang-english \
   texlive-lang-chinese \
-  texlive-full && \
+  texlive-xetex && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
