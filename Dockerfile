@@ -16,6 +16,8 @@ RUN apt-get update && \
   inotify-tools \
   lmodern \
   make \
+  wget \
+  xzdec \
   texlive-fonts-recommended \
   texlive-generic-recommended \
   texlive-lang-english \
