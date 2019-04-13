@@ -18,6 +18,7 @@ RUN apt-get update && \
   make \
   wget \
   xzdec \
+  fontconfig \
   texlive-fonts-recommended \
   texlive-generic-recommended \
   texlive-lang-english \
